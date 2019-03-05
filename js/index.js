@@ -8,7 +8,7 @@ if (Number.isNaN(n) || n <= 0) {
 function fibLoop(n) {
     let first = 1, second = 1;
     for (let i = 3; i <= n; i++) {
-        [first,second] = [second, first + second];
+        [first, second] = [second, first + second];
     }
     return second;
 }
